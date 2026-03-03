@@ -1,0 +1,12 @@
+# CCJS Validator Requirements
+# Python standard library only - no external dependencies required for core functionality
+
+# Optional: For enhanced data validation and serialization
+pydantic>=2.0.0
+
+# Optional: For testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Optional: For type checking
+mypy>=1.0.0
