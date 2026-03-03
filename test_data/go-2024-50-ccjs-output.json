@@ -1,0 +1,113 @@
+{
+    "template": {
+        "name": "ccjs_edit",
+        "mj": "Y",
+        "site_code": "versaterm",
+        "language": "e",
+        "theme": "dark-medium",
+        "fe_name": "GBC",
+        "comments": {
+            "toggle_compress_view": "Click to show/hide all fields (i.e. not entered)",
+            "expand_collapse_all": "Click to expand/collapse all groups",
+            "print_screen_display": "Print screen display"
+        },
+        "print": true,
+        "maxWidth": "1155px"
+    },
+    "case_number": "2024-50 ",
+    "labels": {
+        "form_header": "Validation (CCJS) Errors for:",
+        "form_header_sm": "CCJS Errors for:",
+        "offence": "Offence",
+        "ccjs_code": "CCJS Code",
+        "error_description": "Error",
+        "ccjs_error_code": "CCJS Error",
+        "correction": "Instructions To Correct"
+    },
+    "comments": {
+        "link_comment": "Click to navigate to area of the report to correct"
+    },
+    "errors": [
+        {
+            "error_no": 1,
+            "collapse_toggle": "in",
+            "error_link_arr": [
+                {
+                    "link_text": "Modify the GO",
+                    "link": "{ \"ErrorNo\": \"1\", \"Type\":\"GO\", \"RMSFieldId\":\"weapon_type\"}",
+                    "link_obj": {}
+                }
+            ],
+            "jurisdiction": " ",
+            "primary_key": "    202450",
+            "occ_num": 50,
+            "report_date": "2024-11-13",
+            "operational_code": "B",
+            "offence_code": "1330",
+            "offence_ext": "0",
+            "offence_att_comp": "C",
+            "ccjs_code": "47.20",
+            "offence_trans": "SEXUAL ASSAULT",
+            "error_in_field": "Weapon Type",
+            "ccjs_error_code": 47.2,
+            "ccjs_error_message": "WEAPON TYPE - mandatory                                                                             ",
+            "error_details": "Offence #1: 1330",
+            "correction_message": "The Weapon Type in the CCJS tab of the main General Occurrence must be entered for the Offence entered.                                                                                                                                                                                                                                                                                                                                                                             "
+        },
+        {
+            "error_no": 2,
+            "collapse_toggle": "in",
+            "error_link_arr": [
+                {
+                    "link_text": "Modify the GO",
+                    "link": "{ \"ErrorNo\": \"2\", \"Type\":\"GO\", \"RMSFieldId\":\"hate_crime_ind\"}",
+                    "link_obj": {}
+                }
+            ],
+            "jurisdiction": " ",
+            "primary_key": "    202450",
+            "occ_num": 50,
+            "report_date": "2024-11-13",
+            "operational_code": "B",
+            "offence_code": "1330",
+            "offence_ext": "0",
+            "offence_att_comp": "C",
+            "ccjs_code": "76.16",
+            "offence_trans": "SEXUAL ASSAULT",
+            "error_in_field": "Hate Crime?",
+            "ccjs_error_code": 76.16,
+            "ccjs_error_message": "WARNING - Hate crime is blank                                                                       ",
+            "correction_message": " A hate crime detail page exists but the hate crime field on the GO is blank or set to No.                                                                                                                                                                                                                                                                                                                                                                                          "
+        },
+        {
+            "error_no": 3,
+            "collapse_toggle": "in",
+            "error_link_arr": [
+                {
+                    "link_text": "Modify the GO",
+                    "link": "{ \"ErrorNo\": \"3\", \"Type\":\"GO\", \"RMSFieldId\":\"rucr\"}",
+                    "link_obj": {}
+                },
+                {
+                    "link_text": "Add (Person) Victim",
+                    "link": "{ \"ErrorNo\": \"3\", \"Type\":\"AddPER\"}",
+                    "link_obj": {}
+                }
+            ],
+            "jurisdiction": " ",
+            "primary_key": "    202450",
+            "occ_num": 50,
+            "report_date": "2024-11-13",
+            "operational_code": "B",
+            "offence_code": "1330",
+            "offence_ext": "0",
+            "offence_att_comp": "C",
+            "ccjs_code": "35.00",
+            "offence_trans": "SEXUAL ASSAULT",
+            "error_in_field": "Offence #1",
+            "ccjs_error_code": 35,
+            "ccjs_error_message": "VICTIM - required                                                                                   ",
+            "correction_message": "A person with a victim role must be added to the event when any Offence on the GO is a violent (1000 series) or criminal traffic (9000 series) offence.                                                                                                                                                                                                                                                                                                                             "
+        }
+    ]
+}

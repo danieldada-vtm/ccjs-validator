@@ -1,0 +1,118 @@
+{
+    "template": {
+        "name": "ccjs_edit",
+        "mj": "Y",
+        "site_code": "versaterm",
+        "language": "e",
+        "theme": "dark-medium",
+        "fe_name": "GBC",
+        "comments": {
+            "toggle_compress_view": "Click to show/hide all fields (i.e. not entered)",
+            "expand_collapse_all": "Click to expand/collapse all groups",
+            "print_screen_display": "Print screen display"
+        },
+        "print": true,
+        "maxWidth": "1155px"
+    },
+    "case_number": "2025-30 GARY TEST 2",
+    "labels": {
+        "form_header": "Validation (CCJS) Errors for:",
+        "form_header_sm": "CCJS Errors for:",
+        "offence": "Offence",
+        "ccjs_code": "CCJS Code",
+        "error_description": "Error",
+        "ccjs_error_code": "CCJS Error",
+        "correction": "Instructions To Correct"
+    },
+    "comments": {
+        "link_comment": "Click to navigate to area of the report to correct"
+    },
+    "errors": [
+        {
+            "error_no": 1,
+            "collapse_toggle": "in",
+            "error_link_arr": [
+                {
+                    "link_text": "Modify the GO",
+                    "link": "{ \"ErrorNo\": \"1\", \"Type\":\"GO\", \"RMSFieldId\":\"weapon_type\"}",
+                    "link_obj": {}
+                }
+            ],
+            "jurisdiction": " ",
+            "primary_key": "    202530",
+            "occ_num": 30,
+            "report_date": "2025-03-06",
+            "operational_code": "B",
+            "offence_code": "1480",
+            "offence_ext": "0",
+            "offence_att_comp": "C",
+            "ccjs_code": "47.10",
+            "offence_trans": "OTHER ASSAULTS",
+            "error_in_field": "Weapon Type",
+            "ccjs_error_code": 47.1,
+            "ccjs_error_message": "WEAPON TYPE - invalid                                                                               ",
+            "error_details": "Offence #1: 1480",
+            "correction_message": "The Weapon Type in the CCJS tab of the main General Occurrence cannot be blank or 14 - No weapon for the Offence entered.                                                                                                                                                                                                                                                                                                                                                           "
+        },
+        {
+            "error_no": 2,
+            "collapse_toggle": "in",
+            "error_link_arr": [
+                {
+                    "link_text": "Modify the GO",
+                    "link": "{ \"ErrorNo\": \"2\", \"Type\":\"GO\", \"RMSFieldId\":\"rucr\"}",
+                    "link_obj": {}
+                },
+                {
+                    "link_text": "Add (Person) Victim",
+                    "link": "{ \"ErrorNo\": \"2\", \"Type\":\"AddPER\"}",
+                    "link_obj": {}
+                }
+            ],
+            "jurisdiction": " ",
+            "primary_key": "    202530",
+            "occ_num": 30,
+            "report_date": "2025-03-06",
+            "operational_code": "B",
+            "offence_code": "1480",
+            "offence_ext": "0",
+            "offence_att_comp": "C",
+            "ccjs_code": "35.00",
+            "offence_trans": "OTHER ASSAULTS",
+            "error_in_field": "Offence #1",
+            "ccjs_error_code": 35,
+            "ccjs_error_message": "VICTIM - required                                                                                   ",
+            "correction_message": "A person with a victim role must be added to the event when any Offence on the GO is a violent (1000 series) or criminal traffic (9000 series) offence.                                                                                                                                                                                                                                                                                                                             "
+        },
+        {
+            "error_no": 3,
+            "collapse_toggle": "in",
+            "error_link_arr": [
+                {
+                    "link_text": "Modify the GO",
+                    "link": "{ \"ErrorNo\": \"3\", \"Type\":\"GO\", \"RMSFieldId\":\"occupancy_code\"}",
+                    "link_obj": {}
+                },
+                {
+                    "link_text": "Add (Person) Victim",
+                    "link": "{ \"ErrorNo\": \"3\", \"Type\":\"AddPER\"}",
+                    "link_obj": {}
+                }
+            ],
+            "jurisdiction": " ",
+            "primary_key": "    202530",
+            "occ_num": 30,
+            "report_date": "2025-03-06",
+            "operational_code": "B",
+            "offence_code": "1480",
+            "offence_ext": "0",
+            "offence_att_comp": "C",
+            "ccjs_code": "33.00",
+            "offence_trans": "OTHER ASSAULTS",
+            "error_in_field": "Occupancy",
+            "ccjs_error_code": 33,
+            "ccjs_error_message": "OCCUPANCY - invalid                                                                                 ",
+            "correction_message": "Occupancy on the front page of the General Occurrence must be blank when the Offence is not a violent offence (1000 series) and the Location is not 1, 3, 4, 27, 28, 29 or 30                                                                                                                                                                                                                                                                                                       "
+        }
+    ]
+}
